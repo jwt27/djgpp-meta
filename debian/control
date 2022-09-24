@@ -1,0 +1,33 @@
+Source: djgpp-meta
+Section: devel
+Priority: optional
+Maintainer: jwt27 <jwjagersma@gmail.com>
+Build-Depends: debhelper (>= 11), git
+Standards-Version: 4.6.1
+Homepage: https://jw.h4ck.me/debian
+
+Package: djgpp
+Architecture: any
+Depends: ${misc:Depends},
+ djgpp-dev,
+ djgpp-utils,
+ gcc-djgpp,
+ binutils-djgpp,
+ gdb-djgpp,
+ libwatt-djgpp-dev
+Suggests: djgpp-doc
+Description: DJGPP toolchain (meta-package)
+ This meta-package installs all available components of the djgpp toolchain,
+ including additional libraries.  For documentation, see djgpp-doc.
+
+Package: djgpp-doc
+Architecture: all
+Depends: ${misc:Depends},
+ djgpp-dev-doc,
+ gcc-djgpp-doc,
+ binutils-djgpp-doc,
+ gdb-djgpp-doc
+Suggests: djgpp
+Description: DJGPP toolchain documentation (meta-package)
+ This meta-package installs the documentation for all available components of
+ the djgpp toolchain.

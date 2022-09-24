@@ -1,0 +1,5 @@
+djgpp-meta (1+0) unstable; urgency=low
+
+  * Moved from djgpp-toolchain to new repo.
+
+ -- jwt27 <jwjagersma@gmail.com>  Sat, 24 Sep 2022 18:29:26 +0200

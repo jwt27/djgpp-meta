@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_clean:
+	-git clean -fdx
+	-rm -f debian/pgp-secret.asc
+
+override_dh_builddeb:
+	dh_builddeb
+	-git checkout debian/pgp-secret.asc
