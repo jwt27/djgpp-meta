@@ -1,3 +1,10 @@
+djgpp-meta (1+1) unstable; urgency=low
+
+  * Add zlib-djgpp-dev.
+
+ -- jwt27 <jwjagersma@gmail.com>  Sun, 25 Sep 2022 02:30:18 +0200
+
+
 djgpp-meta (1+0) unstable; urgency=low
 
   * Moved from djgpp-toolchain to new repo.
