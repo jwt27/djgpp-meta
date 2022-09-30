@@ -15,7 +15,8 @@ Depends: ${misc:Depends},
  binutils-djgpp,
  gdb-djgpp,
  libwatt-djgpp-dev,
- zlib-djgpp-dev
+ zlib-djgpp-dev,
+ libssl-djgpp-dev
 Suggests: djgpp-doc
 Description: DJGPP toolchain (meta-package)
  This meta-package installs all available components of the djgpp toolchain,

@@ -1,3 +1,9 @@
+djgpp-meta (1+2) unstable; urgency=low
+
+  * Add libssl-djgpp-dev.
+
+ -- jwt27 <jwjagersma@gmail.com>  Fri, 30 Sep 2022 18:16:01 +0200
+
 djgpp-meta (1+1) unstable; urgency=low
 
   * Add zlib-djgpp-dev.
